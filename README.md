@@ -39,7 +39,7 @@ There are two tables for this service: WALLET and TRANSACTION.
 2. The table TRANSACTION will register the log of Operations executed to apply the requirement of full traceability of
 all operations in order to facilitate auditing of wallet balances.
 
-For this testcase, we're just considering a relational database because the objective is register the process.
+For this project, we're just considering a relational database because the objective is register the process.
 Is important to say that in a real scenario, depending on the number of the transactions per second, the availability,
 response time and scaling, we can consider relational database consolidated or a NoSql Database to ensure the performance.
 
