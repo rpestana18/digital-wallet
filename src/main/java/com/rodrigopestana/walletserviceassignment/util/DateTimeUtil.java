@@ -10,9 +10,8 @@ public class DateTimeUtil {
 
     public static LocalDateTime convertStringToDateTime(String dateTime) {
         try {
-            LocalDateTime localDateTime = LocalDateTime.parse(dateTime);
 
-            return localDateTime;
+            return LocalDateTime.parse(dateTime);
 
         } catch (DateTimeParseException e) {
             throw new WalletBusinessException("Invalid DateTime format: " + dateTime, e.getMessage());
